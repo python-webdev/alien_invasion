@@ -1,4 +1,8 @@
-'''Settings for Alien Invasion.'''
+"""Settings for the Alien Invasion game.
+
+Defines the Settings class, which stores configurable values such as
+screen dimensions, background color, and ship speed.
+"""
 
 
 class Settings:
@@ -10,3 +14,5 @@ class Settings:
         self.screen_width = 1200
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
+        # Ship settings
+        self.ship_speed = 3
